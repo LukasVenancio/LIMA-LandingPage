@@ -12,4 +12,39 @@ body{
     background-position: center;
     background-color: #00000080 ;
     background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+h1{
+    font-size: 75px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.descricao{
+    font-size: 50px;
+    color: #ffffff;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+#learn-more{
+    width: 200px;
+    height: 40px;
+    background-color: #fae12c;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20;
+    margin-top: 20px;
+
 }
