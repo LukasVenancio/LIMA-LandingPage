@@ -24,7 +24,7 @@ main{
     gap: 20px;
 }
 h1{
-    font-size: clamp(40px, 7vw, 100px);
+    font-size: clamp(20px, 7vw, 100px);
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
