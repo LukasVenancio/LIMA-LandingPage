@@ -36,15 +36,42 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
-#learn-more{
-    width: 200px;
-    height: 40px;
-    background-color: #fae12c;
+#linha{
+    width: 25vw;
+}
+.botoes{
+    display: inline;
+}
+#linkedin{
+    width: clamp (25px, 20vw, 45px);
+    height: 30px;
+    background-color: aqua;
     border-style: none;
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
-    font-size: 19px;
+    font-size: 20px;
     margin-top: 20px;
-
+}
+#github{
+    width: clamp (25px, 20vw, 45px);
+    height: 30px;
+    background-color: aqua;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#instagram{
+    width: clamp (25px, 20vw, 45px);
+    height: 30px;
+    background-color: aqua;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
 }
